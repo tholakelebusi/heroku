@@ -9,7 +9,7 @@ app.listen(3000, function() {
   })
 
 
-  app.get('/', function(req, res) {
+  app.get('/id', function(req, res) {
     res.send('Hello World see')
   })
 
